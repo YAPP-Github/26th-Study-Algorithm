@@ -1,5 +1,14 @@
 # 🌱 26기 Web 파트 알고리즘 스터디 
 
+### 👥 Study Member
+
+| <img width="200" src="https://github.com/user-attachments/assets/97cb199c-ba11-4afe-96f3-55b7b6100a9b" /> | <img width="200" src="https://github.com/user-attachments/assets/9b580b07-778b-4a13-a1b4-307a4c9e13d8" /> | <img width="200" src="https://github.com/user-attachments/assets/eb52d960-c378-4d78-82cd-60a2e56bcfd1" /> | <img width="200" src="https://github.com/user-attachments/assets/2dfc41ef-465e-440e-bcb6-aacb3cf6fe7b" /> | <img width="200" src="https://github.com/user-attachments/assets/1a63d1e4-f54c-44f1-9784-81ceb7d2cdfe" /> |
+|:---:|:---:|:---:|:---:|:---:|
+| [수빈](https://github.com/wkdtnqls0506) | [유빈](https://github.com/ppinppini) | [한서](https://github.com/seueooo) | [승범](https://github.com/seung365) | [고은](https://github.com/gonn-i) |
+| <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=PYTHON&logoColor=white"/> | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" /> |<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white"/> | <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/>| <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white"/>|
+
+---
+
 ### 📌 Rule
 1. **언제?** 매주 수요일 밤 9시  
 2. **어디서?** `Yapp Discord` → (자율-스터디룸-1)  
@@ -28,5 +37,12 @@
 * **커밋 메시지 규칙**  
   - 형식: 풀이 소스 업로드 : `Week{num}: 문제번호_문제이름`
       -  `Week1: 토마토_7569`  
-      - 문제번호가 없다면 문제이름만을 적어요 
+      - 문제번호가 없다면 문제이름만을 적어요
+   
+---
+
+[🔗 스터디 관리 notion 바로가기](https://quark-dianella-5e6.notion.site/2728a514965e80938909c4ccd1b30c4b?source=copy_link)
+
+<img width="3372" height="1522" alt="image" src="https://github.com/user-attachments/assets/38074ce8-75bb-4d21-94f1-54f38ad37d92" />
+
 
