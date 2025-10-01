@@ -6,7 +6,7 @@ const [n, m] = input.splice(0,1)[0].split(' ').map(Number);
 
 // 미방문 1 // 방문 0
 let visited_arr = Array.from({length: n}, () => new Array(m).fill(-1));
-let ans = Array.from({length: n}, () => new Array(m).fill(0));
+let ans = Array.from({length: n}, () => new Array(m).fill(-1));
 let need_to_visite = [];
 let map = [];
 let start_cor = []; // x, y
@@ -23,9 +23,11 @@ for(let i = 0; i < n; i++ ){
         if(map[i][j] === '2') {
             start_cor = [i, j];
             visited_arr[i][j] = 0;
+            ans[i][j] = 0;
         } 
         else if (map[i][j] === '0') {
             visited_arr[i][j] = 0;
+            ans[i][j] = 0;
         }
     }
 }
