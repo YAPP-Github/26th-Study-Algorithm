@@ -41,7 +41,7 @@
    
 ---
 
-[🔗 스터디 관리 notion 바로가기](https://quark-dianella-5e6.notion.site/2728a514965e80938909c4ccd1b30c4b?source=copy_link)
+[🔗 스터디 관리 notion 바로가기](https://www.notion.so/2728a514965e80938909c4ccd1b30c4b?source=copy_link)
 
 <img width="3372" height="1522" alt="image" src="https://github.com/user-attachments/assets/38074ce8-75bb-4d21-94f1-54f38ad37d92" />
 
