@@ -1,18 +1,7 @@
+const fs = require("fs");
 
-const input = [13,
-0,
-1,
-2,
-0,
-0,
-3,
-2,
-1,
-0,
-0,
-0,
-0,
-0];
+const filePath = process.platform === 'linux'? '/dev/stdin' : __dirname + '/input.txt';
+const input = fs.readFileSync(filePath).toString().trim().split('\n').map(Number);
 const [N, ...num_arr] = input;
 
 class MaxHeap {
