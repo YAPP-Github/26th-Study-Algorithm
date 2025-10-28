@@ -17,6 +17,8 @@ function solution (n, edge) {
         visited[e] = true;
     })
     
+    // 최단거리를 보장해야 함으로 bfs 탐색
+    // 반례: 6 / [[3, 6], [4, 3], [3, 2], [1, 3], [1, 2], [2, 4], [5, 2], [4, 5], [4, 6]]
     while(need_to_visite.length > 0) {
         const [vertex, how_far] = need_to_visite.shift();
         far[vertex] = how_far + 1;
