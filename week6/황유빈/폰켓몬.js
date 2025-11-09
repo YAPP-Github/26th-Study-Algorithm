@@ -1,0 +1,1 @@
+solution = (n) => Math.min(new Set(n).size, n.length/2)
