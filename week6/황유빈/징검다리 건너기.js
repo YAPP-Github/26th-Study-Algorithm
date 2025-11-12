@@ -16,7 +16,7 @@ function canCross(mid,stones,k){
 function solution(stones,k){
     
     let left = 1
-    let right =200000
+    let right =200000000
     let answer
     
     while(left <= right){
