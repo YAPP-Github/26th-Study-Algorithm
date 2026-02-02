@@ -1,0 +1,7 @@
+-- null 처리 -> IFNULL 함수 사용
+-- ORDER BY 여러 컬럼 정렬 -> 쉼표로 구분
+-- 코드를 입력하세요
+SELECT PT_NAME, PT_NO, GEND_CD, AGE, IFNULL(TLNO, 'NONE')
+FROM PATIENT
+WHERE GEND_CD ='W' AND AGE <= 12
+ORDER BY AGE DESC, PT_NAME ASC
