@@ -1,0 +1,15 @@
+/*
+출력 형식 신경쓰기! 특히, 날짜 부분
+특정 날짜에 해당 
+1) MONTH(DATE_OF_BIRTH) = 3
+2) DATE_OF_BIRTH like '%-03-%'
+**/
+-- 코드를 입력하세요
+SELECT MEMBER_ID, MEMBER_NAME, GENDER, DATE_FORMAT(DATE_OF_BIRTH, '%Y-%m-%d')
+FROM MEMBER_PROFILE
+WHERE 
+    # DATE_OF_BIRTH like '%-03-%'
+    MONTH(DATE_OF_BIRTH) = 3
+    AND GENDER = 'W' 
+    AND TLNO IS NOT NULL 
+ORDER BY MEMBER_ID ASC
