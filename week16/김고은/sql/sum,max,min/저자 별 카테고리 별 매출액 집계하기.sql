@@ -1,0 +1,19 @@
+/*
+JOIN과 GROUP BY를 사용하여 2022년 1월 한 달간
+작가별, 카테고리별 매출액의 합계
+결과는 작가ID 오름차순,
+카테고리 내림차순으로 정렬.
+**/
+SELECT 
+    b.AUTHOR_ID,
+    a.AUTHOR_NAME,
+    b.CATEGORY,
+    SUM(s.SALES * b.PRICE) AS TOTAL_SALES
+FROM BOOK b
+
+JOIN AUTHOR a ON a.AUTHOR_ID = b.AUTHOR_ID
+JOIN BOOK_SALES s ON b.BOOK_ID = s.BOOK_ID
+
+WHERE s.SALES_DATE LIKE '2022-01-%'
+GROUP BY a.AUTHOR_NAME, b.CATEGORY
+ORDER BY b.AUTHOR_ID ASC, b.CATEGORY DESC;
