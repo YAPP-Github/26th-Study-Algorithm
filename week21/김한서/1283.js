@@ -6,7 +6,6 @@ const rl = readline.createInterface({
 });
 
 let input = [];
-const readline = require("readline");
 
 rl.on("line", function (line) {
   input.push(line.trim());
